@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="바르니 - 사이트" />
+        <meta property="og:description" content="Hello! I am a Baruni!" />
+        <meta property="og:image" content='barun.png' />
+        <title>바르니 - 사이트</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }
+            body{
+                background-color: #a8a2cd;
+            }
+            .profile{
+                width: 100px;
+                height: 100px;
+
+                background-color: white;
+                border-radius: 100%;
+
+                border: 2px solid aqua;
+
+                background-image: url('barun.png');
+                background-position: center;
+                background-size: cover;
+            }
+            .baruni{
+                color: white;
+                font-size: 20px;
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            .info{
+                color: white;
+                font-size: 14px;
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+            .wrap{
+                width: 300px;
+                margin: 30px auto 0px auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .wrap > a{
+                width: 300px;
+                height: 50px;
+                background-color: white;
+                border-radius: 8px;
+                margin-bottom: 10px;
+                font-size: 14px;
+                font-weight: bold;
+                color: #44398A;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                box-shadow: 3px 3px 5px 0px black;
+            }
+            .wrap > a:hover {
+                background-color: #f2f2f2;
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="baruni">바르니</h1>
+            <p class="info">안녕하세요 바르니에요!</p>
+            <a target="_blank" href="https://www.youtube.com/channel/UCGH21YlHcQh-vH8XdrQjyfQ?app=desktop">유튜브</a>
+            <a target="_blank" href="https://lognet.netlify.app">간단한 구글 클론</a>
+            <a target="_blank" href="https://github.com/logouter024516">github</a>
+            <a target="_blank" href="">새로운 창</a>
+        </div>
+    </body>
+</html>
